@@ -107,6 +107,9 @@ p {
 }
 
 @media (min-width: 768px) {
+  .header-flex {
+    margin-bottom: 2.2rem;
+  }
   .hero {
     background-position: top;
   }
