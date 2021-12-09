@@ -11,7 +11,8 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial,
+    sans-serif;
 }
 
 img {
@@ -31,10 +32,18 @@ a {
   margin: 0 auto;
 }
 
+h1 {
+  font-weight: 100;
+  margin: 0 0 2.4rem 0;
+}
+
+p {
+  font-weight: 200;
+}
+
 /* Header */
 
 .header {
-  height: 12.2rem;
   background-color: white;
 }
 
@@ -50,5 +59,58 @@ a {
   .header-flex {
     flex-direction: row;
     justify-content: space-between;
+  }
+}
+
+/* Hero */
+
+.hero {
+  height: 35rem;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.hero-contenido {
+  padding: 8.5rem 0 11.2rem 0;
+}
+
+.hero-contenido p {
+  margin-bottom: 3rem;
+}
+
+.formulario {
+  position: relative;
+}
+
+.formulario .search {
+  height: 5rem;
+  padding-left: 1.1rem;
+  border-radius: 0.8rem;
+  width: 100%;
+  display: inline-block;
+}
+
+.formulario .btn-search {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  display: block;
+  border: none;
+  text-indent: -9999px;
+  width: 5rem;
+  background-image: url(../images/lupa.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-position: top;
+  }
+  .formulario {
+    width: 41rem;
   }
 }
