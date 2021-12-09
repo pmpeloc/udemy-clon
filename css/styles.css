@@ -154,4 +154,7 @@ p {
   .features-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  .feature-texto {
+    padding-left: 0;
+  }
 }
