@@ -45,3 +45,10 @@ a {
   margin: 2.2rem auto 3rem auto;
   gap: 0.7rem;
 }
+
+@media (min-width: 768px) {
+  .header-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
