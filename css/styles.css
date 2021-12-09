@@ -133,6 +133,7 @@ p {
 .features-grid {
   display: grid;
   grid-template-columns: 1fr;
+  row-gap: 2.8rem;
 }
 
 .feature-item {
